@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Hesap Makinesi</title>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="screen">
+            <p id="hidden"></p>
+            <p id="result"></p>
+        </div>
+        <div class="numbers">
+            <div onclick="temizle()" class="box"><p>CE</p></div>
+            <div onclick="mod()" class="box"><p>%</p></div>
+            <div onclick="bolme()" class="box"><p>/</p></div>
+            <div onclick="sil()" class="box"><p><i class="fa-solid fa-delete-left"></i></p></div>
+            <div onclick="bir()" class="box">1</div>
+            <div onclick="iki()" class="box"><p>2</p></div>
+            <div onclick="uc()" class="box"><p>3</p></div>
+            <div onclick="carp()" class="box"><p>x</p></div>
+            <div onclick="dort()" class="box"><p>4</p></div>
+            <div onclick="bes()" class="box"><p>5</p></div>
+            <div onclick="alti()" class="box"><p>6</p></div>
+            <div onclick="cikar()" class="box"><p>-</p></div>
+            <div onclick="yedi()" class="box"><p>7</p></div>
+            <div onclick="sekiz()" class="box"><p>8</p></div>
+            <div onclick="dokuz()" class="box"><p>9</p></div>
+            <div onclick="topla()" class="box"><p>+</p></div>
+            <div class="box"></div>
+            <div onclick="sifir()" class="box"><p>0</p></div>
+            <div onclick="nokta()" class="box"><p>.</p></div>
+            <div onclick="sonuc()" class="box"><p>=</p></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
